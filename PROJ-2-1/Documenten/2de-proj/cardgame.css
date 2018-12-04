@@ -1,0 +1,30 @@
+/*CSS*/
+.bands {
+  width: 600px;
+  height: 700px;
+  float: left;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+.songs {
+  width: 600px;
+  height: 700px;
+  float: left;
+  right: 50px;
+  position: absolute;
+  top: 50px;
+}
+label {
+display: block;
+width: 110px;
+float: left;
+margin: 2em;
+background-color: lightgray;
+border: 4mm ridge rgb(170, 50, 220, .6);
+border-color: green;
+border-radius: 10px;
+border-width: thick;
+padding: 20px
+
+}
