@@ -6,7 +6,7 @@ Ons tweede project voor het vak project.
 ### Wij zijn samen bezig met een Solitair game voor een school project.
 
 Wie heeft wat gedaan?
- - Bjørn:
+ - Bjørn: Flowchart, Wireframe,
  - Ian:
  
  
