@@ -1,6 +1,6 @@
 /*CSS*/
 .bands {
-  width: 600px;
+  width: 500px;
   height: 700px;
   float: left;
   position: absolute;
@@ -21,10 +21,23 @@ width: 110px;
 float: left;
 margin: 2em;
 background-color: lightgray;
-border: 4mm ridge rgb(170, 50, 220, .6);
+border: 4mm ridge rgb(170, 50, 220);
+border: 1px solid transparent; /* keeps layout from jumping */
 border-color: green;
 border-radius: 10px;
 border-width: thick;
 padding: 20px
+}
 
+input {
+  position: hidden;
+  display: none;
+}
+input[type="radio"]:checked + label {
+  background: #000;
+  border-color: green;
+  color: white;
+}
+label:hover{
+  background-color: gray;
 }

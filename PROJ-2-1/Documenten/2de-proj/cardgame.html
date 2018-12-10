@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="author" content="Ian Hartog, Bjørn Emmaneel">
@@ -9,30 +9,31 @@
      <link rel=stylesheet href="cardgame.css">
 </head>
 
-<body lang="en">
-  <fieldset class="bands">
-      <label><input type="Radio" name="song" value="enter sandman"/> enter sandman </label>
-      <label><input type="Radio" name="song" value="ace of spades"/> ace of spades </label>
-      <label><input type="Radio" name="song" value="walk"/> walk </label>
-      <label><input type="Radio" name="song" value="holy diver"/> holy diver </label>
-      <label><input type="Radio" name="song" value="breaking the law"/> breaking the law </label>
-      <label><input type="Radio" name="song" value="raining blood"/> raining blood </label>
-      <label><input type="Radio" name="song" value="paranoid"/> paranoid </label>
-      <label><input type="Radio" name="song" value="peace sells... but who's buying"/> peace sells... but who's buying </label>
-      <label><input type="Radio" name="song" value="B.Y.O.B."/> B.Y.O.B. </label>
-      <label><input type="Radio" name="song" value="hail to the king"/> hail to the king </label>
+<body>
+  <fieldset class="songs">
+      <input id="song1" type="radio" name="song" value="enter sandman"><label for="song1" class="radio"> enter sandman </label>
+      <input id="song2" type="radio" name="song" value="ace of spades"><label for="song2" class="radio"> ace of spades </label>
+      <input id="song3" type="radio" name="song" value="walk"><label for="song3" class="radio"> walk </label>
+      <input id="song4" type="radio" name="song" value="holy diver"><label for="song4" class="radio"> holy diver </label>
+      <input id="song5" type="radio" name="song" value="breaking the law"><label for="song5" class="radio"> breaking the law </label>
+      <input id="song6" type="radio" name="song" value="raining blood"><label for="song6" class="radio"> raining blood </label>
+      <input id="song7" type="radio" name="song" value="paranoid"><label for="song7" class="radio"> paranoid </label>
+      <input id="song8" type="radio" name="song" value="peace sells... but who's buying"><label for="song8" class="radio"> peace sells... but who's buying </label>
+      <input id="song9" type="radio" name="song" value="B.Y.O.B."><label for="song9" class="radio"> B.Y.O.B. </label>
+      <input id="song0" type="radio" name="song" value="hail to the king"><label for="song0" class="radio"> hail to the king </label>
     </fieldset>
-    <fieldset class="songs">
-      <label><input type="Radio" name="band" value="metallica"/> metallica </label>
-      <label><input type="Radio" name="band" value="motörhead"/> motörhead </label>
-      <label><input type="Radio" name="band" value="pantera"/> pantera </label>
-      <label><input type="Radio" name="band" value="Dio"/> Dio </label>
-      <label><input type="Radio" name="band" value="judas priest"/> judas priest </label>
-      <label><input type="Radio" name="band" value="slayer"/> slayer </label>
-      <label><input type="Radio" name="band" value="black sabbath"/> black sabath </label>
-      <label><input type="Radio" name="band" value="megadeth"/> megadeth </label>
-      <label><input type="Radio" name="band" value="system of a down"/> system of a down </label>
-      <label><input type="Radio" name="band" value="avenged sevenfold"/> avenged sevenfold </label>
+    <fieldset class="bands">
+      <input id="band1" type="radio" name="band" value="metallica"><label for="band1" class="radio"> metallica </label>
+      <input id="band2" type="radio" name="band" value="motörhead"><label for="band2" class="radio"> motörhead </label>
+      <input id="band3" type="radio" name="band" value="pantera"><label for="band3" class="radio"> pantera </label>
+      <input id="band4" type="radio" name="band" value="Dio"><label for="band4" class="radio"> Dio </label>
+      <input id="band5" type="radio" name="band" value="judas priest"><label for="band5" class="radio"> judas priest </label>
+      <input id="band6" type="radio" name="band" value="slayer"><label for="band6" class="radio"> slayer </label>
+      <input id="band7" type="radio" name="band" value="black sabbath"><label for="band7" class="radio"> black sabath </label>
+      <input id="band8" type="radio" name="band" value="megadeth"><label for="band8" class="radio"> megadeth </label>
+      <input id="band9" type="radio" name="band" value="system of a down"><label for="band9" class="radio"> system of a down </label>
+      <input id="band0" type="radio" name="band" value="avenged sevenfold"><label for="band0" class="radio"> avenged sevenfold </label>
     </fieldset>
-    </body>
-    </html>
+    <script src="script.js"></script>
+</body>
+</html>
