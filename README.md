@@ -7,7 +7,7 @@ Ons tweede project voor het vak project.
 
 Wie heeft wat gedaan?
  - Bjørn: Flowchart, Wireframe,
- - Ian:
+ - Ian: Plan van aanpak, Defriefing
  
  
  
