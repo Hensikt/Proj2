@@ -1,39 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta name="author" content="Ian Hartog, Bjørn Emmaneel">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="author" content="Ian Hartog, Bjørn Emmaneel">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>card game</title>
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel=stylesheet href="cardgame.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel=stylesheet href="cardgame.css">
 </head>
 
 <body>
   <fieldset class="songs">
-      <input id="song1" type="radio" name="song" value="enter sandman"><label for="song1" class="radio"> enter sandman </label>
-      <input id="song2" type="radio" name="song" value="ace of spades"><label for="song2" class="radio"> ace of spades </label>
-      <input id="song3" type="radio" name="song" value="walk"><label for="song3" class="radio"> walk </label>
-      <input id="song4" type="radio" name="song" value="holy diver"><label for="song4" class="radio"> holy diver </label>
-      <input id="song5" type="radio" name="song" value="breaking the law"><label for="song5" class="radio"> breaking the law </label>
-      <input id="song6" type="radio" name="song" value="raining blood"><label for="song6" class="radio"> raining blood </label>
-      <input id="song7" type="radio" name="song" value="paranoid"><label for="song7" class="radio"> paranoid </label>
-      <input id="song8" type="radio" name="song" value="peace sells... but who's buying"><label for="song8" class="radio"> peace sells... but who's buying </label>
-      <input id="song9" type="radio" name="song" value="B.Y.O.B."><label for="song9" class="radio"> B.Y.O.B. </label>
-      <input id="song0" type="radio" name="song" value="hail to the king"><label for="song0" class="radio"> hail to the king </label>
-    </fieldset>
-    <fieldset class="bands">
-      <input id="band1" type="radio" name="band" value="metallica"><label for="band1" class="radio"> metallica </label>
-      <input id="band2" type="radio" name="band" value="motörhead"><label for="band2" class="radio"> motörhead </label>
-      <input id="band3" type="radio" name="band" value="pantera"><label for="band3" class="radio"> pantera </label>
-      <input id="band4" type="radio" name="band" value="Dio"><label for="band4" class="radio"> Dio </label>
-      <input id="band5" type="radio" name="band" value="judas priest"><label for="band5" class="radio"> judas priest </label>
-      <input id="band6" type="radio" name="band" value="slayer"><label for="band6" class="radio"> slayer </label>
-      <input id="band7" type="radio" name="band" value="black sabbath"><label for="band7" class="radio"> black sabath </label>
-      <input id="band8" type="radio" name="band" value="megadeth"><label for="band8" class="radio"> megadeth </label>
-      <input id="band9" type="radio" name="band" value="system of a down"><label for="band9" class="radio"> system of a down </label>
-      <input id="band0" type="radio" name="band" value="avenged sevenfold"><label for="band0" class="radio"> avenged sevenfold </label>
-    </fieldset>
-    <script src="script.js"></script>
+    <ul class="list">
+      <li><input id="song1" type="radio" name="song" value="enter sandman"><label for="song1" class="radio"> enter sandman </label></li>
+      <li><input id="song2" type="radio" name="song" value="ace of spades"><label for="song2" class="radio"> ace of spades </label></li>
+      <li><input id="song3" type="radio" name="song" value="walk"><label for="song3" class="radio"> walk </label></li>
+      <li><input id="song4" type="radio" name="song" value="holy diver"><label for="song4" class="radio"> holy diver </label></li>
+      <li><input id="song5" type="radio" name="song" value="breaking the law"><label for="song5" class="radio"> breaking the law </label></li>
+      <li><input id="song6" type="radio" name="song" value="raining blood"><label for="song6" class="radio"> raining blood </label></li>
+      <li><input id="song7" type="radio" name="song" value="paranoid"><label for="song7" class="radio"> paranoid </label></li>
+      <li><input id="song8" type="radio" name="song" value="peace sells... but who's buying"><label for="song8" class="radio"> peace sells... but who's buying </label></li>
+      <li><input id="song9" type="radio" name="song" value="B.Y.O.B."><label for="song9" class="radio"> B.Y.O.B. </label></li>
+      <li><input id="song0" type="radio" name="song" value="hail to the king"><label for="song0" class="radio"> hail to the king </label></li>
+    </ul>
+  </fieldset>
+  <fieldset class="bands">
+    <ul class="list">
+      <li><input id="band1" type="radio" name="band" value="metallica"><label for="band1" class="radio"> metallica </label></li>
+      <li><input id="band2" type="radio" name="band" value="motörhead"><label for="band2" class="radio"> motörhead </label></li>
+      <li><input id="band3" type="radio" name="band" value="pantera"><label for="band3" class="radio"> pantera </label></li>
+      <li><input id="band4" type="radio" name="band" value="Dio"><label for="band4" class="radio"> Dio </label></li>
+      <li><input id="band5" type="radio" name="band" value="judas priest"><label for="band5" class="radio"> judas priest </label></li>
+      <li><input id="band6" type="radio" name="band" value="slayer"><label for="band6" class="radio"> slayer </label></li>
+      <li><input id="band7" type="radio" name="band" value="black sabbath"><label for="band7" class="radio"> black sabath </label></li>
+      <li><input id="band8" type="radio" name="band" value="megadeth"><label for="band8" class="radio"> megadeth </label></li>
+      <li><input id="band9" type="radio" name="band" value="system of a down"><label for="band9" class="radio"> system of a down </label></li>
+      <li><input id="band0" type="radio" name="band" value="avenged sevenfold"><label for="band0" class="radio"> avenged sevenfold </label></li>
+    </ul>
+  </fieldset>
+  <script src="script.js"></script>
 </body>
+
 </html>

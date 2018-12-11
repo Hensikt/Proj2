@@ -1,6 +1,6 @@
 /*CSS*/
 .bands {
-  width: 500px;
+  width: 600px;
   height: 700px;
   float: left;
   position: absolute;
@@ -32,6 +32,9 @@ padding: 20px
 input {
   position: hidden;
   display: none;
+}
+ul.list{
+  list-style-type: none;
 }
 input[type="radio"]:checked + label {
   background: #000;
