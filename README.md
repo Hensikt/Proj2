@@ -14,3 +14,4 @@ Wie heeft wat gedaan?
  
  
  ###### Instructies:
+ Dit spel werkt net zoals memory. Als je 2 kaarten die bij elkaar horen hebt gevonden dan heb jij een punt heb er 2 die niet bij elkaar horen dan heb je geen punt.
